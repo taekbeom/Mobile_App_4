@@ -7,7 +7,3 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-
-dependencies {
-    implementation 'androidx.work:work-runtime:2.7.1'
-}
